@@ -1,4 +1,5 @@
-# JavaScript BookList App without and library or JS framework. Only using classes, local storage , Bootstrapwatch for UI and many more. https://pk-booklist.netlify.com/
+# JavaScript BookList App without and library or JS framework. Only using classes, local storage , Bootstrapwatch for UI and many more.
+https://pk-booklist.netlify.com/
 
 
 
