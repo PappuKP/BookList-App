@@ -5,31 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <script src="https://kit.fontawesome.com/d027fbf3e1.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./bootstrap.min.css" />
-    <title>MyBookList App</title>
+    <title>Pappu's BookList App</title>
 </head>
 
 <body>
     <div class="container mt-4">
         <h1 class="display-4 text-center">
-            <i class="fas fa-book-open text-primary"></i> My<span class="text-primary">Book</span>List</h1>
+            <i class="fas fa-book-open text-primary"></i> Pappu's <span class="text-primary">Fav Book </span>List</h1>
         <form id="book-form">
             <div class="form-group">
-                <label for="title">Title</label>
+                <label for="title">Title of the book</label>
                 <input type="text" id="title" class="form-control">
             </div>
             <div class="form-group">
-                <label for="author">Author</label>
+                <label for="author">Author of the book</label>
                 <input type="text" id="author" class="form-control">
             </div>
             <div class="form-group">
-                <label for="isbn">Secret Key</label>
+                <label for="isbn">Secret Key of the book</label>
                 <input type="text" id="isbn" class="form-control">
             </div>
-            <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+            <div class="form-group">
+                <label for="dt">Date</label>
+                <input type="date" id="dt" max="3000-12-31" min="1000-01-01" class="form-control">
+            </div>
+
+            <input type="submit" value="Click Here to Add Book" class="btn btn-primary btn-block">
         </form>
         <table class="table table-striped mt-5">
             <thead>
@@ -37,6 +42,7 @@
                     <th>Title</th>
                     <th>Author</th>
                     <th>Secret Key</th>
+                    <th>Date</th>
                     <th></th>
                 </tr>
             </thead>
